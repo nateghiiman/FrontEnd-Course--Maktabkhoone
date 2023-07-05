@@ -1,0 +1,42 @@
+p{
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    margin: 0;
+}
+
+div{
+    background-color: gray;
+    border: solid 2px darkgray;
+    height: 160px;
+    width: 300px;
+    padding: 10px;
+    position: absolute
+}
+
+.first {
+    z-index: 1;
+    background-color: blue;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+    bottom: 2;
+}
+
+
+.second {
+    z-index: 2;
+    background-color: red;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+   
+}
+.third{
+    z-index: 3;
+    background-color: green;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 60px;
+}
