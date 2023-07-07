@@ -1,0 +1,27 @@
+.footer1{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-items: left;
+    background-color: var(--color-graylite);
+    color: white;
+    /* background-color: aquamarine; */
+}
+.footer2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--color-header-back);
+    color: var(--color-header-font);
+}
+.c1footer ul{
+    display: grid;
+    gap: 40px;
+    padding: 20px;
+    /* grid-template-columns : 1fr; */
+    
+}
+.c2footer ul{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
