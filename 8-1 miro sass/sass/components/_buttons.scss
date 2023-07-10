@@ -1,0 +1,10 @@
+@import '../sass-utils/variables';
+@import '../sass-utils/mixins';
+
+.content1__left__btn{
+    background-color: $button-back;
+    color: $buttoncolor;
+    
+    border: none;
+    @include round;
+}

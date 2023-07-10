@@ -1,0 +1,73 @@
+@import '../sass-utils/mixins';
+.content1{
+    // margin-top: 56px;
+    // padding-top: 56px;
+    // width: 98vw;
+    // height: 50vh;
+    // max-height: 800px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 75px 0px 10px 10px;
+    
+    &__left{
+        // background-color: aquamarine;
+        // max-height: 80vh;
+        display: flex;
+        gap: 1vh;
+        justify-content:center;
+        flex-direction: column;
+        padding: 20px 10px;
+        *{
+            min-height: 5%;
+        }
+        input{
+            @include round;
+        }
+        // button{
+        // }
+        &__rate{
+            background-color: gray;
+            display: flex;
+            padding: 10px 20px;
+            border-radius: 10px;
+            // gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &__right{
+        img{
+        width: 100%;
+        }
+    }
+}
+    .content1__left__rate__c1__stars{
+        display: grid;
+        grid-template-columns: repeat(5,auto);
+    }
+
+.content2{
+    padding-top: 75px;
+    &__text{
+        text-align: center;
+
+    }
+    &__logos{
+        // background-color: aqua;
+        // width: 95%;
+        align-items: center;
+        *{
+            width: 18%;
+        }
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .content1{
+
+        grid-template-columns: 100%;
+        // padding: 75px 0px 10px 10px;
+    
+}}
+
+  
